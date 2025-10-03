@@ -4,7 +4,8 @@ function App() {
 
     return (
         <>
-            Maak je applicatie hier!
+            <header></header>
+            <div className="country-search"></div>
         </>
     )
 }
