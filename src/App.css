@@ -1,3 +1,13 @@
-.header{
-    background-image: url("./assets/world_map.png");
+header{
+    background-image: url("assets/images/world_map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 896px;
+    text-align: center;
 }
+
+.country-info{
+    background: lightgrey;
+}
+
