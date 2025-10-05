@@ -1,3 +1,48 @@
+/* ------------------------------- Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+:root {
+    /* Spaces */
+    --spacing-xxs: 0.25rem;  /* 4px */
+    --spacing-xs:  0.5rem;   /* 8px */
+    --spacing-sm:  0.75rem;  /* 12px */
+    --spacing-md:  1rem;     /* 16px */
+    --spacing-lg:  1.5rem;   /* 24px */
+    --spacing-xl:  2rem;     /* 32px */
+    --spacing-xxl: 3rem;     /* 48px */
+}
+
+/* ------------------------------- Areas -------------------------------- */
+
+/*TODO: FIX BACKGROUND IMAGE!!*/
 header{
     background-image: url("assets/images/world_map.png");
     background-size: contain;
@@ -8,6 +53,6 @@ header{
 }
 
 .country-info{
-    background: lightgrey;
+    background: rgb(250 250 250);
 }
 
