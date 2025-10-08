@@ -42,7 +42,12 @@ img {
 
 /* ------------------------------- Areas -------------------------------- */
 
-/*TODO: FIX BACKGROUND IMAGE!!*/
+button{
+    margin: var(--spacing-lg);
+    padding: var(--spacing-md);
+    border-radius: 10px;
+}
+
 header{
     background-image: url("assets/images/world_map.png");
     background-size: contain;
@@ -50,9 +55,49 @@ header{
     width: 100vw;
     height: 896px;
     text-align: center;
+    position: relative;
 }
 
-.country-info{
+h1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.countries-section {
     background: rgb(250 250 250);
+    display: flex;
+    justify-content: center;
 }
 
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country-card{
+    flex-basis: 432px;
+    padding: var(--spacing-xs);
+}
+
+.blue-region{
+    color: blue;
+}
+
+.green-region{
+    color: green;
+}
+
+.red-region{
+    color: red;
+}
+
+.yellow-region{
+    color: #FDDA0D;
+}
+
+.purple-region{
+    color: purple;
+}
