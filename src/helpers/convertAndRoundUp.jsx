@@ -1,4 +1,4 @@
 export default function convertAndRoundUp(number) {
-
-    return Math.round(number);
+    const roundedNumber = Math.round(number);
+    return roundedNumber;
 }
