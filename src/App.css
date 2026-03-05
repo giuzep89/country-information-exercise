@@ -1,0 +1,130 @@
+/* ------------------------------- Global Styles -------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+:root {
+    /* Spaces */
+    --spacing-xxs: 0.25rem;  /* 4px */
+    --spacing-xs:  0.5rem;   /* 8px */
+    --spacing-sm:  0.75rem;  /* 12px */
+    --spacing-md:  1rem;     /* 16px */
+    --spacing-lg:  1.5rem;   /* 24px */
+    --spacing-xl:  2rem;     /* 32px */
+    --spacing-xxl: 3rem;     /* 48px */
+}
+
+/* ------------------------------- Header -------------------------------- */
+
+button{
+    margin: var(--spacing-lg);
+    padding: var(--spacing-md);
+    border-radius: 10px;
+    /*max-width: 132px;*/
+}
+
+header{
+    background-image: url("assets/images/world_map.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 896px;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ------------------------------- World regions section -------------------------------- */
+
+.countries-section {
+    background: rgb(250 250 250);
+    display: flex;
+    justify-content: center;
+}
+
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country-card{
+    flex-basis: 360px;
+    padding: var(--spacing-lg);
+}
+
+.blue-region{
+    color: blue;
+}
+
+.green-region{
+    color: green;
+}
+
+.red-region{
+    color: red;
+}
+
+.yellow-region{
+    color: #FDDA0D;
+}
+
+.purple-region{
+    color: purple;
+}
+
+/* ------------------------------- Search country section -------------------------------- */
+
+.search-country-section > h2{
+    text-align: center;
+    margin: var(--spacing-md);
+}
+
+.search-country-section {
+    display: flex;
+    justify-content: center;
+}
+.search-country-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+}
+
+.search-country-container * {
+    padding: var(--spacing-xs);
+}
+
